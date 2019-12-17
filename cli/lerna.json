@@ -1,0 +1,23 @@
+{
+  "changelog": {
+    "labels": {
+      "enhancement": ":rocket: Enhancement",
+      "bug": ":bug: Bug Fix",
+      "documentation": ":book: Documentation"
+    },
+    "cacheDir": ".changelog"
+  },
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "exact": true
+    },
+    "publish": {
+      "message": "chore(release): publish %v"
+    }
+  },
+  "npmClient": "npm",
+  "version": "independent"
+}

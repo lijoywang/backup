@@ -1,0 +1,24 @@
+{
+  "name": "@mfw/base-cli-plugin-eslint",
+  "version": "0.0.2",
+  "description": "eslint plugin for base-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "eslint"
+  ],
+  "author": "yuyinjian",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "chalk": "^2.4.2",
+    "eslint": "^5.13.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^5.1.0",
+    "globby": "^9.0.0",
+    "semver": "^5.6.0"
+  }
+}
